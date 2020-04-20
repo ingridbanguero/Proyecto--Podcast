@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blue Dot Channel</title>
+    <link rel="stylesheet" href="./Styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/32ffda14a6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <div>
+        <img src="./Images/logo.svg" alt="Logo de la pagina">
+        <input type="checkbox" id="btn-menu">
+        <label class="menu-icon" for="btn-menu"><span class="nav-icon"></span></label>
+        <nav class="menu">
+            <ul>
+                <li><a href="#episodios">EPISODIOS</a></li>
+                <li><a href="#nosotros">NOSOTROS</a></li>
+                <li><a href="#entrevistas">ENTREVISTAS</a></li>
+                <li><a href="#topicos">TÓPICOS</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <section class="first">
+        <div class="inicio">
+            <h1 class="titulo">Hello <del>World</del> pale blue dot<span>.</span></h1>
+            <p>Un podcast que explora el mundo de la programación.
+                Nuevos episodios, todos los jueves cada 15 días.
+            </p>
+            <input class="boton" type="button" name="boton" value="CONÓCE MÁS" onclick="location.href='#nosotros'">
+        </div>
+    </section>
+    <section class="second" id="episodios">
+        <div class="contenedor">
+            <h1 class="titulo">Episodios</h1>
+            <div class="contenedor-episodios">
+                <iframe src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" height="232"></iframe>
+                <iframe src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt" height="232"></iframe>
+                <iframe src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD" height="232"></iframe>
+                <iframe src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ" height="232"></iframe>
+            </div>
+        </div>
+    </section>
+    <section class="third" id="nosotros">
+        <div class="venimos">
+            <img class="phone" src="./Images/phone.png" alt="Imagen de un telefono celular">
+            <div>
+                <h1 class="titulo">De dónde venimos</h1>
+                <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light.</p> 
+                <p>Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+            </div>
+        </div>
+    </section>
+    <section class="fourth" id="entrevistas">
+        <div class="invitados">
+            <h1 class="titulo">Invitadas/os estelares</h1>
+            <div class="fotos">
+                <img src="./Images/grace-hopper.png" alt="Foto de Grace Hopper">
+                <img src="./Images/Katie-Bouman.png" alt="Foto de Katie Bouman">
+                <img src="./Images/Margaret_Hamilton.png" alt="Foto de Margaret Hamilton">
+                <img src="./Images/Univac-computer.png" alt="Foto de Univac Computer">
+                <img src="./Images/Eniac.png" alt="Foto de operaciones de computación con el computador Eniac">
+                <img src="./Images/susan-kare.png" alt="Foto de Susan Kare">
+            </div>
+        </div>
+    </section>
+    <section class="fifth" id="topicos">
+        <div class="temas">
+            <h1 class="titulo">Algunos de nuestros temas</h1>
+            <div class="contenedor-temas">
+                <div class="tema">
+                    <img src="./Images/icon1.svg" alt="Foto de trabajo remoto">
+                    <h3>Trabajo remoto</h3>
+                </div>
+                <div class="tema">
+                    <img src="./Images/icon2.svg" alt="Foto de repensando la programación">
+                    <h3>Repensando la programación</h3>
+                </div>
+                <div class="tema">
+                    <img src="./Images/icon3.svg" alt="Foto de bases del código">
+                    <h3>Bases del código</h3>
+                </div>
+                <div class="tema"> 
+                    <img src="./Images/icon4.svg" alt="Foto de seguridad informática">
+                    <h3>Seguridad informática</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sixth">
+        <div class="segundo-contenedor">
+            <h2>¿Queres las últimas novedades?</h2>
+            <input type="button" class="boton" name="boton" value="ESCUCHÁ LOS EPISODIOS" onclick="location.href='#episodios'">
+        </div>
+    </section>
+    <footer class="footer">
+        <h6>© 2019— Hello blue pale dot</h6>
+        <div class="icons">
+            <a href="https://www.spotify.com/co/" class="fab fa-spotify"></a>
+            <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+            <a href="https://twitter.com/" class="fab fa-twitter"></a>
+            <a href="https://www.facebook.com/" class="fab fa-facebook"></a>
+            <a href="https://web.telegram.org/" class="fab fa-telegram"></a>
+        </div>
+    </footer>
+</body>
+</html>
